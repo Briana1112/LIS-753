@@ -1,3 +1,18 @@
 body {
-    background: pink;
+    background: rgb(255, 212, 219);
+}
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    font-style: italic;
+}
+p {
+    font-weight: bold;
+    font-size: 18px;
 }
