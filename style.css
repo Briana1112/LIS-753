@@ -19,7 +19,7 @@ p {
 }
 
 .card {
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .about-section {
@@ -32,5 +32,5 @@ width: 200px;
 
 
 #my-hobbies {
-    border: 6px solid rgb(47, 255, 47), 255); 
+    border: 8px solid rgb(47, 255, 47), 255); 
 }
