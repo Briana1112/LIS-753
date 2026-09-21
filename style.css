@@ -17,3 +17,20 @@ p {
     font-weight: bold;
     font-size: 18px;
 }
+
+.card {
+    border-radius: 6px;
+}
+
+.about-section {
+background: #070707;
+color: white;
+margin: 16px;
+padding: 32px;
+width: 200px;
+}
+
+
+#my-hobbies {
+    border: 6px solid rgb(231, 47, 255), 255); 
+}
