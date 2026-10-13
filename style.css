@@ -86,26 +86,9 @@ body {
 
 #main-content > div { 
     body {
-  font-family: sans-serif;
-  margin: 0;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
 }
-header {
-  background: purple;
-  height: 100px;
-}
-h1 {
-  text-align: center;
-  color: white;
-  line-height: 100px;
-  margin: 0;
-}
-section {
-  zoom: 0.8;
-}
-article {
-  padding: 10px;
-  margin: 10px;
-  background: aqua;
-}
-
 }
