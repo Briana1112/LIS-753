@@ -84,10 +84,4 @@ body {
   grid-template-columns: 200px 200px 200px;
 }
 
-#main-content > div { 
-    background: #070707;
-color: white;
-margin: 16px;
-padding: 32px;
-width: 200px;
-}
+
