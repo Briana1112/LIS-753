@@ -84,9 +84,17 @@ body {
   grid-template-columns: 200px 200px 200px;
 }
 
+.upcoming-programs {
+background: #070707;
+color: white;
+margin: 16px;
+padding: 32px;
+width: 200px;
+}
+
 .library-programs {
-     background: turquoise;
-color: black;
+background: #070707;
+color: white;
 margin: 16px;
 padding: 32px;
 width: 200px;
