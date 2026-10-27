@@ -3,6 +3,12 @@ body {
 }
 h1 {
     font-size: 36px;
+    color: red;
+}
+
+header h1 {
+    margin-bottom: 0;
+    text-align: center;
 }
 
 h2 {
@@ -41,7 +47,7 @@ width: 200px;
     justify-content: center;
     gap: 12px;
     list-style: none;
-    margin: 36px;
+    margin: 12px 0 36px 0;
 }
 
 #main-navegation ul li {
@@ -62,41 +68,39 @@ width: 200px;
     background-color: fuchsia;
 }
 
-.library-programs {
-    background: #070707;
-color: white;
-margin: 16px;
-padding: 32px;
-width: 200px;
-}
-
-body {
-  font-family: sans-serif;
-}
-.container > div {
-  border-radius: 5px;
-  padding: 10px;
-  background-color: rgb(207 232 220);
-  border: 2px solid rgb(79 185 227);
-}
 .container {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
+    width: 950px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 18px 54px;
+    box-sizing: border-box;
 }
 
-.upcoming-programs {
-background: #070707;
-color: white;
-margin: 16px;
-padding: 32px;
-width: 200px;
+header {
+    margin-bottom: 48px;
 }
 
-.register {
-background: #070707;
-color: white;
-margin: 16px;
-padding: 32px;
-width: 200px;
+main {
+    display: flex;
+    column-gap: 60px;
+    justify-content: space-around;
 }
 
+main article {
+    width: calc(100% - 280px - 60px);
+}
+
+main article table {
+    width: 100%;
+}
+
+main aside {
+    width: 200px;
+}
+
+table{
+   margin-bottom: 36px; 
+}
+table caption {
+    text-align: left;
+}
