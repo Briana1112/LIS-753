@@ -2,7 +2,7 @@ body {
     background: rgb(255, 212, 219);
 }
 h1 {
-    font-size: 36px;
+    font-size: 48px;
     color: black;
 }
 
@@ -12,7 +12,7 @@ header h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 36px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
