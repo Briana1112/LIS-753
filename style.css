@@ -2,7 +2,7 @@ body {
     background: rgb(255, 212, 219);
 }
 h1 {
-    font-size: 48px;
+    font-size: 58px;
     color: black;
 }
 
@@ -12,7 +12,7 @@ header h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 46px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -21,7 +21,7 @@ h1, h2 {
 }
 p {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .card {
@@ -57,7 +57,7 @@ width: 200px;
 }
 
 #main-navegation ul li a:hover {
-    background-color: fuchsia;
+    background-color: rgb(0, 128, 117);
 }
 
 
