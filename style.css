@@ -42,11 +42,11 @@ width: 200px;
 }
 
 
-#main-navegation ul li {
+#main-navigation ul li {
     width: 140px;
 }
 
-#main-navegation ul li a {
+#main-navigation ul li a {
     padding: 8px 20px;
     background-color: deeppink;
     color: white;
@@ -56,7 +56,7 @@ width: 200px;
     text-align: center;
 }
 
-#main-navegation ul li a:hover {
+#main-navigation ul li a:hover {
     background-color: rgb(0, 128, 117);
 }
 
@@ -81,7 +81,7 @@ table caption {
     box-sizing: border-box;
 }
 
-#main-navegation ul {
+#main-navigation ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -90,13 +90,8 @@ table caption {
     padding: 0;
 }
 
-/*moblie*/
-@media all and (min-width: 375px) {
-
-}
-
-/* tablet*/
-@media all and (min-width: 3768px) {
+/* 1. typo */
+@media all and (min-width: 768px) {   /* was 3768px */
     #main-navegation ul {
         flex-direction: row;
         gap: 12px;
@@ -104,27 +99,47 @@ table caption {
     }
 }
 
-/*destop*/
-@media all and (min-width: 1200px) {
+/* 2. casing — must match the HTML exactly */
+.Container {              /* was .container */
+    background: aliceblue;
+    padding: 12px;
+    margin: 0 auto;
+    max-width: 98%;
+    box-sizing: border-box;
+}
 
-    .container {
+/* 3. and the desktop override too */
+@media all and (min-width: 1200px) {
+    .Container {
         width: 950px;
         padding: 18px 54px;
     }
-    main {
-        display: flex;
-        column-gap: 60px;
-    }
+}
 
-    main article {
-        width: calc(100% - 280px - 60px);
-    }
 
-    main article table {
-        width: 100%;
-    }
+ main {
+    display: flex;
+    column-gap: 60px;
+}
+main article {
+    flex: 1;          /* takes whatever is left */
+}
+main aside {
+    flex: 0 0 200px;  /* fixed, won't grow or shrink */
+}
 
-    main aside {
-        width: 200px;
+#confirmation-message {
+    border: 1px solid pink;
+    background-color: lightcyan;
+    padding: 25px 48px;
+    animation: fade-in 0.6s ease-out;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
